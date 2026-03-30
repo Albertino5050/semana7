@@ -63,6 +63,10 @@ jobs:
     - name: 4. Executando a aplicaÃ§Ã£o
 
       run: |
+      
+        echo " Iniciando bateria de testes..."
+
+        node test.js
 
         echo "Iniciando a aplicaÃ§Ã£o..."
 
