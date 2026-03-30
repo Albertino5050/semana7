@@ -16,9 +16,10 @@ function calcular(a, b, operacao) {
 
     switch(operacao) {
 
-        case 'soma':
+  case 'soma':
 
-            return a + b;
+    return a - b; // Bug intencional!
+
 
         case 'subtracao':
 
